@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.revistek.crs.protos;
+
+option java_multiple_files = true;
+
+import "Cas.proto";
+
+message Message {
+	int64 statusCode = 1;
+	string exceptionType = 2;
+	string message = 3;
+	com.revistek.crs.protos.Cas cas = 4;
+	string metadataQueryKey = 5;
+}

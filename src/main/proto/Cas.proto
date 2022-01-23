@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.revistek.crs.protos;
+
+option java_multiple_files = true;
+
+message Cas {
+	string casId = 1;
+	string documentId = 2;
+	int64 crc32Checksum = 3;
+	bytes casData = 4;
+}
