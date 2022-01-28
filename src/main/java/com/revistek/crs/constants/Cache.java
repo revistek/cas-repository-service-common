@@ -1,5 +1,10 @@
 package com.revistek.crs.constants;
 
+/**
+ * Constants for use with the cache (e.g. RedisCacheDao).
+ *
+ * @author Chuong Ngo
+ */
 public final class Cache {
   public static final String KEY_REPOSITORY_URL = "repo.url";
   public static final String KEY_MONGODB_REPOSITORY_DATABASE = "mongodb.repo.database";

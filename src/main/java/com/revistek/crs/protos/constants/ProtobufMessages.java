@@ -1,5 +1,10 @@
 package com.revistek.crs.protos.constants;
 
+/**
+ * Messages for the Message protobuf object.
+ *
+ * @author Chuong Ngo
+ */
 public final class ProtobufMessages {
   public static final String CAS_STORE_FAILED = "Failed to write the CAS to the repository.";
   public static final String CAS_STORE_SUCCESS = "Successfully wrote the CAS to the repository.";

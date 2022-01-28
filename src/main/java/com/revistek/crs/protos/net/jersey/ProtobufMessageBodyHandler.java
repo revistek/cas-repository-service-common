@@ -19,6 +19,11 @@ import java.lang.reflect.Type;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Handles the marshalling/unmarshalling for the Message protobuf object for Jersey.
+ *
+ * @author Chuong Ngo
+ */
 @Provider
 @Consumes(MediaTypes.APPLICATION_XPROTOBUF)
 @Produces(MediaTypes.APPLICATION_XPROTOBUF)
